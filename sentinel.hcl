@@ -1,3 +1,3 @@
-policy "azure-vm-size_restrict" {
+policy "azure-vm-size-restrict" {
     enforcement_level = "soft-mandatory"
 }
