@@ -1,3 +1,3 @@
-policy "azure-vm-size-restrict" {
+policy "azurerm-restrict-vm-size" {
     enforcement_level = "soft-mandatory"
 }
