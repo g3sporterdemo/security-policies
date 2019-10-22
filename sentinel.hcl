@@ -5,7 +5,7 @@ policy "azurerm-restrict-vm-size" {
 #    enforcement_level = "hard-mandatory"
 #}
 policy "azurerm-block-allow-all-cidr" {
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "advisory"
     }
 #
 policy "aws-block-allow-all-cidr" {
