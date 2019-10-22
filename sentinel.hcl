@@ -11,3 +11,7 @@ policy "azurerm-block-allow-all-cidr" {
 policy "aws-block-allow-all-cidr" {
     enforcement_level = "hard-mandatory"
     }
+#
+policy "change-window-hours" {
+    enforcement_level = "advisory"
+    }
