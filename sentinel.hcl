@@ -9,7 +9,7 @@ policy "azurerm-block-allow-all-cidr" {
     }
 #
 policy "aws-block-allow-all-cidr" {
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "advisory"
     }
 #
 policy "change-window-hours" {
