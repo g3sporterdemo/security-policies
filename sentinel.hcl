@@ -5,11 +5,11 @@ policy "azurerm-restrict-vm-size" {
 #    enforcement_level = "hard-mandatory"
 #}
 policy "azurerm-block-allow-all-cidr" {
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
     }
 #
 policy "aws-block-allow-all-cidr" {
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
     }
 #
 policy "change-window-hours" {
